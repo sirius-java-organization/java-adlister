@@ -11,5 +11,22 @@
     <c:if test="false">
         <h1>single letter variable names are good</h1>
     </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+    </c:if>
+
+//Change some stuff
+
+WROTE CODE
+
+it works
+
+other code (if statements LOOPS AND STUFF)
 </body>
 </html>
