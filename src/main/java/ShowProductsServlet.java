@@ -20,6 +20,6 @@ public class ShowProductsServlet extends HttpServlet {
 
         // Pass the data to the jsp
         request.setAttribute("products", products);
-        request.getRequestDispatcher("/products/index.jsp").forward(request, resp);
+        request.getRequestDispatcher("/WEB-INF/products/index.jsp").forward(request, resp);
     }
 }
