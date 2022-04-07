@@ -1,4 +1,4 @@
-package JDBC;
+package JDBC_UI_PW;
 
 import com.mysql.cj.jdbc.Driver;
 

@@ -13,6 +13,22 @@
 </head>
 <body>
 
+<form method="post" action="/search-quotes">
+    <label>Search for a quote:
+        <input name="userSearch" type="text">
+    </label>
+
+
+    <button type="submit">Look for a quote</button>
+</form>
+
+<c:if test="${searchTerm !=  null}">
+<%--    <h1>You searched for: ${searchTerm}</h1> --%>
+    <h1>You searched for: <c:out value="${searchTerm}"></c:out>
+    </h1>
+
+</c:if>
+
 <c:forEach var="quote" items="${quoteListView}">
     <p>${quote}</p>
 </c:forEach>
