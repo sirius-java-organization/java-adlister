@@ -1,4 +1,4 @@
-package sessionsCookies;
+package com.codeup.adlister.sessionsCookies;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

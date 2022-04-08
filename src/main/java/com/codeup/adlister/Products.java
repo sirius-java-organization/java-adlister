@@ -1,3 +1,5 @@
+package com.codeup.adlister;
+
 import java.util.List;
 
 public interface Products {

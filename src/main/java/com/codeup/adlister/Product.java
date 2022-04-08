@@ -1,3 +1,5 @@
+package com.codeup.adlister;
+
 import java.io.Serializable;
 
 public class Product implements Serializable {

@@ -1,4 +1,4 @@
-package JDBC_UI_PW;
+package com.codeup.adlister.JDBC_UI_PW;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

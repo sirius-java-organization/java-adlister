@@ -1,5 +1,6 @@
-package JDBC_UI_PW;
+package com.codeup.adlister.JDBC_UI_PW;
 
+import com.codeup.adlister.Config;
 import com.mysql.cj.jdbc.Driver;
 
 import javax.servlet.ServletException;

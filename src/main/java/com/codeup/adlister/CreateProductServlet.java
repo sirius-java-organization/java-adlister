@@ -1,3 +1,5 @@
+package com.codeup.adlister;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,7 +20,7 @@ public class CreateProductServlet extends HttpServlet {
         // create a new product based on the submitted data
         String name = request.getParameter("name");
         double price = Double.parseDouble(request.getParameter("price"));
-        Product product = new Product(name, price); //new Product object with both pieces of information from our form
+        Product product = new Product(name, price); //new com.codeup.adlister.Product object with both pieces of information from our form
         // persist [AKA save AKA insert] the new product into our data [for us, today, that is into the ArrayList]
         productsDao.insert(product);
         response.sendRedirect("/products");
